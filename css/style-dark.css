@@ -1414,13 +1414,13 @@ header .header-mobile .header-toggle i {
 }
 
 
-/*============ 8. Blog Section ============*/
+/*============ 8. privacy Section ============*/
 
-.blog-section {
+.privacy-section {
     background-color: #2C2D2F;
 }
 
-.blog-section .blog-item {
+.privacy-section .privacy-item {
     position: relative;
     display: block;
     background-color: #2C2D2F;
@@ -1429,19 +1429,19 @@ header .header-mobile .header-toggle i {
     overflow: hidden;
 }
 
-.blog-section .blog-item .blog-image img {
+.privacy-section .privacy-item .privacy-image img {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
 
-.blog-section .blog-item:hover img {
+.privacy-section .privacy-item:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.blog-section .blog-item .blog-content {
+.privacy-section .privacy-item .privacy-content {
     padding: 28px 16px 36px;
     text-align: center;
     width: 82%;
@@ -1452,7 +1452,7 @@ header .header-mobile .header-toggle i {
     margin-top: -40px;
 }
 
-.blog-section .blog-item .blog-content .cat {
+.privacy-section .privacy-item .privacy-content .cat {
     margin-bottom: 7px;
     text-transform: uppercase;
     font-size: 12px;
@@ -1460,14 +1460,14 @@ header .header-mobile .header-toggle i {
     letter-spacing: 1.5px;
 }
 
-.blog-section .blog-item .blog-content .blog-title {
+.privacy-section .privacy-item .privacy-content .privacy-title {
     margin-bottom: 6px;
     font-size: 21px;
     letter-spacing: .5px;
     text-transform: capitalize;
 }
 
-.blog-section .blog-item .blog-content .blog-date {
+.privacy-section .privacy-item .privacy-content .privacy-date {
     font-family: serif;
     font-style: italic;
     color: #e1e1e1;
@@ -1639,9 +1639,9 @@ header .header-mobile .header-toggle i {
 }
 
 
-/*============ 11. Blog Page Css ============*/
+/*============ 11. privacy Page Css ============*/
 
-.blog-page {
+.privacy-page {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1651,24 +1651,24 @@ header .header-mobile .header-toggle i {
     z-index: 1;
 }
 
-.blog-page .blog-container {
+.privacy-page .privacy-container {
     max-width: 1040px;
     width: 90%;
     margin: 0 auto;
 }
 
-.blog-page {
+.privacy-page {
     background-color: #2C2D2F;
     padding-bottom: 50px;
 }
 
-.blog-page .blog-image {
+.privacy-page .privacy-image {
     text-align: center;
     max-width: 1920px;
     margin: auto;
 }
 
-.blog-page .blog-heading {
+.privacy-page .privacy-heading {
     background-color: #2C2D2F;
     margin-top: -100px;
     padding-top: 40px;
@@ -1677,13 +1677,13 @@ header .header-mobile .header-toggle i {
     letter-spacing: .5px;
 }
 
-.blog-page .blog-heading h1 {
+.privacy-page .privacy-heading h1 {
     font-size: 40px;
     margin-bottom: 6px;
     letter-spacing: .5px;
 }
 
-.blog-page .blog-heading .cat {
+.privacy-page .privacy-heading .cat {
     margin-bottom: 7px;
     text-transform: uppercase;
     font-size: 12px;
@@ -1691,43 +1691,43 @@ header .header-mobile .header-toggle i {
     letter-spacing: 1.5px;
 }
 
-.blog-page .blog-heading .blog-date {
+.privacy-page .privacy-heading .privacy-date {
     font-family: serif;
     font-style: italic;
     color: #777;
     font-size: 14px;
 }
 
-.blog-page .blog-content {
+.privacy-page .privacy-content {
     padding-bottom: 50px;
 }
 
-.blog-page .blog-comments .comment-list .comment {
+.privacy-page .privacy-comments .comment-list .comment {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dotted #e3e3e3;
 }
 
-.blog-page .blog-comments .comment-list .comment .author-img {
+.privacy-page .privacy-comments .comment-list .comment .author-img {
     float: left;
     margin-right: 20px;
 }
 
-.blog-page .blog-comments .comment-list .comment .author-img img {
+.privacy-page .privacy-comments .comment-list .comment .author-img img {
     -webkit-border-radius: 100%;
     border-radius: 100%;
     max-width: 70px;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text {
+.privacy-page .privacy-comments .comment-list .comment .comment-text {
     overflow: hidden;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text .reply {
+.privacy-page .privacy-comments .comment-list .comment .comment-text .reply {
     float: right;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text .reply a {
+.privacy-page .privacy-comments .comment-list .comment .comment-text .reply a {
     font-size: 10px;
     background-color: #ffffff;
     color: #222;
@@ -1737,7 +1737,7 @@ header .header-mobile .header-toggle i {
     margin-left: 7px;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text h6.author {
+.privacy-page .privacy-comments .comment-list .comment .comment-text h6.author {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1745,7 +1745,7 @@ header .header-mobile .header-toggle i {
     margin-bottom: 7px;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text span.date {
+.privacy-page .privacy-comments .comment-list .comment .comment-text span.date {
     display: block;
     color: #999;
     font-size: 12px;
@@ -1753,7 +1753,7 @@ header .header-mobile .header-toggle i {
     margin-bottom: 5px;
 }
 
-.blog-page .blog-comments .comment-list .comment .comment-text p {
+.privacy-page .privacy-comments .comment-list .comment .comment-text p {
     color: #ffffff;
     font-size: 15px;
 }
@@ -1771,7 +1771,7 @@ header .header-mobile .header-toggle i {
         margin: 0 5px;
         padding: 0 5px;
     }
-    .blog-page .blog-heading {
+    .privacy-page .privacy-heading {
         margin-top: 0;
     }
 }
@@ -1802,7 +1802,7 @@ header .header-mobile .header-toggle i {
         transition: all .3s ease-in-out;
     }
     #main .pt-page,
-    #main .blog-page {
+    #main .privacy-page {
         padding-top: 50px;
     }
     .banner-section .banner-content h1 {
